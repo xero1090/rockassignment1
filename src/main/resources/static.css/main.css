@@ -1,1 +1,37 @@
+h1{
+    color: dodgerblue;
+    font: 40px Arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
+h2{
+    color: dodgerblue;
+    font: 25px Arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
+h3{
+    color: dodgerblue;
+    font: 25px Arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
+h4{
+    color: dodgerblue;
+    font: 25px Arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
+body {
+    background-color: mediumspringgreen;
+    font: 20px Arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
 
+p{
+    color: white;
+    font: 20px Arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
