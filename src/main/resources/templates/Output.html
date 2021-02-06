@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/main.css" th:href="@{css/main.css}">
+    <title>Output</title>
+</head>
+<body>
+<h1>Output</h1>
+<h2>Your Choice:</h2>
+<th:block th:switch="${rps.message}">
+    <p th:case="0">Rock
+        <img src="../static/images/symbols/rok.png" th:src="'images/symbols/rok.png'" alt= "Rock" th:alt="Rock">
+    </p>
+    <p th:case="1">Paper
+        <img src="../static/images/symbols/pap.png" th:src="'images/symbols/pap.png'" alt= "Paper" th:alt="Paper">
+    </p>
+    <p th:case="2">Scissors
+        <img src="../static/images/symbols/scissors.png" th:src="'images/symbols/scissors.png'" alt= "scissors" th:alt="scissors">
+    </p>
+</th:block>
+
+<h3> CPU's Choice: </h3>
+<th:block th:switch="${rps.getCpuChoice()}">
+    <p th:case="0">Rock
+        <img src="../static/images/symbols/rok.png" th:src="'images/symbols/rok.png'" alt= "Rock" th:alt="Rock">
+    </p>
+    <p th:case="1">Paper
+        <img src="../static/images/symbols/pap.png" th:src="'images/symbols/pap.png'" alt= "Paper" th:alt="Paper">
+    </p>
+    <p th:case="*">Scissors
+        <img src="../static/images/symbols/scissors.png" th:src="'images/symbols/scissors.png'" alt= "scissors" th:alt="scissors">
+    </p>
+    </th:block>
+
+<h4> Winner: </h4>
+<th:block th:switch="${rps.getWinner()}">
+    <p th:case="0">Draw!</p>
+    <p th:case="1">Player Wins!</p>
+    <p th:case="2">Computer Wins!</p>
+</th:block>
+<a href="Input.html" th:href="@{Input}">
+    Play Again
+</a>
+</body>
+</html>

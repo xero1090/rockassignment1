@@ -2,36 +2,46 @@ h1{
     color: dodgerblue;
     font: 40px Arial;
     font-weight: bold;
-    margin-left: 10px;
+    text-align: center;
 }
+
 h2{
     color: dodgerblue;
     font: 25px Arial;
     font-weight: bold;
-    margin-left: 10px;
+    text-align: center;
 }
+
 h3{
     color: dodgerblue;
     font: 25px Arial;
     font-weight: bold;
-    margin-left: 10px;
+    text-align: center;
 }
+
 h4{
     color: dodgerblue;
     font: 25px Arial;
     font-weight: bold;
-    margin-left: 10px;
+    text-align: center;
 }
+
 body {
     background-color: mediumspringgreen;
     font: 20px Arial;
     font-weight: bold;
-    margin-left: 10px;
+    text-align: center;
 }
 
 p{
     color: white;
     font: 20px Arial;
     font-weight: bold;
-    margin-left: 10px;
+    text-align: center;
+}
+
+a{
+    font: 20px Arial;
+    font-weight: bold;
+    text-align: center;
 }
